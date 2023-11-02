@@ -1,0 +1,246 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif; color:#1d1d1d}
+    .img-logo{filter: brightness(0) invert(1); width:200px; height:auto;}
+    
+    a{text-decoration: none; color:#000;}
+    a:hover{color:var(--bs-primary)}
+   
+    
+    .mega-menu{width:100%; height:auto; padding:0 10% 5% 10%; background:var(--bs-secondary) ; color: #000;margin-top:15px} 
+    .mega-menu span{color:var(--bs-secondary); opacity:1}
+    .dropdown-item span{opacity:1}
+    .dropdown-item a, .dropdown-header{color:#000; background:none;}
+    .dropdown-item a:hover, .dropdown-header:hover{color:var(--bs-primary); background:none}
+    
+    .dropdown-item .icon-sm{background:none; color:var(--bs-primary); font-weight:600}
+    
+    .dropdown-item{width:84%; padding:2% 0; margin-right:12%; font-size:16px; font-weight:600;}
+    .dropdown-item:hover{color:var(--bs-primary);background:none}
+    .mega-menu hr{width:83%}
+    .dropdown-menu{border:none; border-radius:0}
+    .nav-item:hover> .dropdown-menu{display:block; left:0}
+    .total-menu .mega-menu{top:65px;}
+
+
+
+    .bg-white {
+        background: var(--bs-primary) !important;
+        color:#FFF;}
+    .navbar-light .nav-link{color:#fff;text-transform:uppercase; font-weight:600}
+
+    
+
+    section{padding-top:100px; padding-bottom:100px}
+    .section-btn{background:none; border:2px solid; border-radius:40px; padding:20px 52px;font-weight:700}
+    .section-btn:hover{background:var(--bs-light); color:var(--bs-primary); border:2px solid; border-radius:40px; padding:20px 52px}
+
+    
+    #top-banner {background:var(--bs-primary); color:var(--bs-light); padding-top:80px; padding-bottom:80px; position:relative}
+    #top-banner h1{font-size:40px; font-weight:800}
+    .nguoi-bay{position:relative; Overflow: hidden}
+    .do-an{position:absolute; top:0; left:3%;right:3%; height:94%;width:94%}
+    .img-100{width:100%; height:auto; object-fit: cover; }
+    .img-bay{height:100%; }
+    .slide-text a{color:#1d1d1d; font-weight:400; text-decoration-line: none;}
+    .frame-text{width:90%; height:80px; background:#FFF; justify-content:center; align-items:center;color:var(--bs-primary); font-weight:600; box-shadow:0px 0.5px 5px #e9e9e9; border-radius:10px; position:absolute; bottom:-40px}
+    
+    
+    .card-index{position:relative;Overflow: hidden;  transform-origin: 50% 65%;transition: transform 5s, filter 3s ease-in-out;cursor: pointer}
+    .img-index{width:100%;height:auto ; position:relative;  filter: brightness(75%)}
+    .text-index{width:100%; text-align: center; align-items:center; position:absolute; top:35%}
+    .text-index h1{color:var(--bs-light); font-weight:900; text-shadow:0px 0.5px 2px #3f3f3f}
+    .text-index h4{color:var(--bs-primary); font-weight:600; text-shadow:0px 0.5px 1px #3f3f3f}
+    .card-index span{background:var(--bs-primary); border-radius:50%; padding:4px ; color:var(--bs-light);position:absolute; top:45%; right:5%;}
+    .card-index .icon{opacity:0%}
+    .card-index:hover> .img-index{filter: brightness(65%);transform: scale(1.1);}
+    .card-index:hover> .icon{opacity:100%}
+
+    #news{background:var(--bs-secondary); padding:100px 0; margin:0}
+    #news a{color:#1d1d1d}
+    #news a:hover{color:var(--bs-primary)}
+    .list-frame{background:var(--bs-light); padding: 5%; border-radius:8px;margin:0}
+    .text-date{color:var(--bs-gray-600); height:40px;line-height:40px}
+    .red-text{width:50%; height:40px;line-height:40px; color:var(--bs-primary);background:#ffc6c6c1; font-weight:600; border-radius:40px;font-size:14px}
+    #news h5, #service h5,  #recruitment h5{color:var(--bs-primary); font-weight:600}
+    #news h1, #service h1,  #recruitment h1{font-weight:900}
+    .red-line{height:3px; background:var(--bs-primary);width:50px; border-radius:20px}
+    #news .chon-tab a{color:#1d1d1d ;background:#fff; font-weight:400; border-radius:40px;padding:16px 32px;text-decoration:none;}
+    #news .chon-tab a:hover{color:#fff ;background:var(--bs-primary); font-weight:700; border-radius:40px;padding:16px 32px;}
+    #news .big-btn, #service .big-btn{width:66%;height:auto; background:var(--bs-primary); border:var(--bs-primary); padding:3% 0; margin-top:5%;color:#fff  }
+    #news .big-btn:hover, #service .big-btn:hover{background:var(--bs-light); color:var(--bs-primary); border: 2px solid var(--bs-primary)}
+
+    .card-service .img-100{Overflow: hidden;border:0.25px solid #3f3f3f; border-radius:10px}
+    .text-service{background:transparent}
+    #service h4{font-weight:900}
+    .card-service{ transition: transform 5s, filter 3s ease-in-out;cursor: pointer}
+    .card-service:hover> .img-100{transform: scale(1.1); }
+    .card-service:hover> .text-service{color:var(--bs-primary)}
+
+    #recruitment {position:relative; color:var(--bs-light); padding-bottom:0}
+    #recruitment .img-100{filter: brightness(65%)}
+    #recruitment .text-recruit{position:absolute; top:28%}
+    #recruitment .big-btn{width:100%;height:auto; background:var(--bs-primary); border:var(--bs-primary); padding:5% 0; margin-top:5%;  }
+    #recruitment .big-btn:hover{background:var(--bs-light); color:var(--bs-primary); border: 2px solid var(--bs-primary)}
+    #recruitment-2{background:var(--bs-secondary);}
+    .card-recruit{width:98%;background:var(--bs-light); padding:12px 8px;cursor: pointer; border-radius:4px;left:0}
+    #recruitment-2 .icon-bg{background:var(--bs-primary); border-radius:50%; padding:4px ; color:var(--bs-light);}
+    .icon-sm{width:16px; height:16px; line-height:16px; font-size:16px; border-radius:50%; background:var(--bs-primary);color:var(--bs-light);opacity:0; }
+    .card-recruit:hover{background:var(--bs-primary); color:var(--bs-light)}
+
+    .footer-white{padding:80px 0}
+    footer .icon-sm{opacity:1}
+    footer a{color:var(--bs-dark);text-decoration:none ; font-size:13px}
+    footer a:hover{color:var(--bs-primary)}
+    .img-footer{width:200px;height:auto}
+    .footer-red{background:var(--bs-primary);}
+    .inner-red{padding:24px 0}
+    .icon-footer{padding-right:16px; transition:all 0.25s}
+    .icon-footer:hover{transform:scale(1.2,1.2)}
+
+    
+    
+    @media screen and (min-width:1401px) {
+        
+       #top-banner{max-height:700px}
+       .hover-underline-animation { display: inline-block; position: relative;color: var(--bs-light);}
+       .hover-underline-animation::after {
+           content: '';
+           position: absolute;
+           width: 80%;
+           margin:auto;
+           left:10%;
+           bottom:10%;
+           transform: scaleX(0);
+           height: 4px;
+           background-color: var(--bs-light);
+           transform-origin: bottom left;
+           transition: transform 0.5s ease-in-out;
+         }
+         
+       .hover-underline-animation:hover::after {
+           transform: scaleX(1);
+           transform-origin: bottom left;
+         }
+   
+      }
+      
+    @media screen and (max-width: 1400px) and (min-width:1201px){
+      .hover-underline-animation { display: inline-block; position: relative;color: var(--bs-light);}
+      .hover-underline-animation::after {
+          content: '';
+          position: absolute;
+          width: 80%;
+          margin:auto;
+          left:10%;
+          bottom:10%;
+          transform: scaleX(0);
+          height: 4px;
+          background-color: var(--bs-light);
+          transform-origin: bottom left;
+          transition: transform 0.5s ease-in-out;
+        }
+        
+      .hover-underline-animation:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+  
+      }
+      
+    @media screen and (max-width: 1200px) and (min-width: 993px){
+       
+        #top-banner h1{font-size:32px}
+        .hover-underline-animation { display: inline-block; position: relative;color: var(--bs-light);}
+    .hover-underline-animation::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        margin:auto;
+        left:10%;
+        bottom:10%;
+        transform: scaleX(0);
+        height: 4px;
+        background-color: var(--bs-light);
+        transform-origin: bottom left;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+    .hover-underline-animation:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      }
+      
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+
+      .dropdown-header{display:none}
+      .banner-title{padding-left:10%}
+      #top-banner h1{font-size:60px}
+       #top-banner .section-btn{width:90%; padding:4% 4%; align-items: center; justify-content: center;border-radius:120px} 
+       #top-banner h4{font-size:32px}
+       #top-banner a{font-size:16px}
+       #top-banner {padding-bottom:120px}
+       .card-id {padding-top:60px}
+       .img-logo{max-height:16px, }
+       .frame-text{height:120px; border-radius:20px;bottom:-60px;}
+      
+       .frame-text .col-sm-6{margin-bottom:0}
+       section{padding-top:60px; padding-bottom:60px}
+       .red-text{height:30px;width:80%;line-height:30px}
+       #news .list-frame .row > * { width:fit-content;}
+       #news .news1{display:inline-block; margin:0}
+       #news .big-btn, #service .big-btn{width:100%;padding:4% 0}
+       #recruitment .big-btn{width:50%; padding:4% 0}
+       #recruitment .text-recruit{width:90%; padding-left:5%; padding-right:5%;top:22%}
+       #recruitment .text-recruit br{display:none}
+       .icon-re{display:none}
+       .icon-sm{opacity:1}
+       .card-recruit{width:100%; padding:12px 4px; border-radius:8px;font-size:14px}
+       #recruitment2 .img-100{width:100%;}
+       .img-logo{width:160px}
+       .total-menu{display:none}
+       .hover-underline-animation { color: var(--bs-light);}
+      }
+      
+      
+      
+    @media screen and (max-width: 767px) {   
+       .nguoi-dung{display:none}
+       .top-banner{padding-top:0; margin-top:0}
+       .banner-title{padding-left:10%;}
+       section{padding-top:60px; padding-bottom:60px}
+       .card-index{padding-bottom:30px}
+       .dropdown-header{display:none}
+      
+      #top-banner h1{font-size:40px}
+       #top-banner .section-btn{width:90%; padding:4% 4%; align-items: center; justify-content: center;border-radius:120px} 
+       #top-banner h4{font-size:24px}
+       #top-banner a{font-size:16px}
+       #top-banner .text1{margin-bottom:0}
+       #top-banner .frame-text .pt-3{padding-top:0}
+       #top-banner {padding-bottom:120px}
+       .card-id {padding-top:60px}
+       .img-logo{max-height:16px,}
+       .frame-text{width:90%;height:120px; border-radius:20px;bottom:-60px; padding:0 5%};
+       .frame-text p{padding:2px 0; margin-top:0}
+       
+        .red-text{height:30px;width:80%;line-height:30px}
+        #news .list-frame .row > * { width:fit-content;}
+       #news .news1{display:inline-block; margin:0}
+       #news .big-btn, #service .big-btn{width:100%; padding:4% 0}
+       #recruitment .big-btn{width:100%; padding:4% 0}
+       #recruitment .img-100{height:500px;}
+       #recruitment .text-recruit{width:90%; padding-left:5%; padding-right:5%;top:30%}
+       #recruitment .text-recruit br{display:none}
+       .icon-re{display:none}
+       .icon-sm{opacity:1}
+       .card-recruit{width:100%; padding:12px 4px; border-radius:8px;font-size:14px; margin-top:20px}
+       #recruitment2 .img-100{width:100%;}
+       footer a{font-size:11.5px}
+       .img-logo{width:120px}
+       .total-menu{display:none}
+       .hover-underline-animation { color: var(--bs-light);}
+       
+    }
+    
